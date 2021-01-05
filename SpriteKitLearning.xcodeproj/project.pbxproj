@@ -1,0 +1,928 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81B7865825A3F82D009B8198 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B7865725A3F82D009B8198 /* AppDelegate.swift */; };
+		81B7865A25A3F82D009B8198 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B7865925A3F82D009B8198 /* GameViewController.swift */; };
+		81B7865D25A3F82D009B8198 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B7865B25A3F82D009B8198 /* Main.storyboard */; };
+		81B7866025A3F82D009B8198 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B7865E25A3F82D009B8198 /* LaunchScreen.storyboard */; };
+		81B7866525A3F82D009B8198 /* SpriteKitLearning.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 81B7866425A3F82D009B8198 /* SpriteKitLearning.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		81B7866B25A3F82D009B8198 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B7866925A3F82D009B8198 /* Interface.storyboard */; };
+		81B7867225A3F82D009B8198 /* SpriteKitLearning Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 81B7867125A3F82D009B8198 /* SpriteKitLearning Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		81B7867725A3F82D009B8198 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B7867625A3F82D009B8198 /* InterfaceController.swift */; };
+		81B7867925A3F82D009B8198 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B7867825A3F82D009B8198 /* ExtensionDelegate.swift */; };
+		81B7868225A3F82D009B8198 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B7868125A3F82D009B8198 /* AppDelegate.swift */; };
+		81B7868425A3F82D009B8198 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B7868325A3F82D009B8198 /* GameViewController.swift */; };
+		81B7868725A3F82D009B8198 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B7868525A3F82D009B8198 /* Main.storyboard */; };
+		81B7868A25A3F82D009B8198 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B7868825A3F82D009B8198 /* LaunchScreen.storyboard */; };
+		81B7869325A3F82D009B8198 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B7869225A3F82D009B8198 /* AppDelegate.swift */; };
+		81B7869525A3F82D009B8198 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B7869425A3F82D009B8198 /* GameViewController.swift */; };
+		81B7869825A3F82D009B8198 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B7869625A3F82D009B8198 /* Main.storyboard */; };
+		81B7869B25A3F82D009B8198 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 81B7864C25A3F828009B8198 /* Actions.sks */; };
+		81B7869C25A3F82D009B8198 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 81B7864C25A3F828009B8198 /* Actions.sks */; };
+		81B7869D25A3F82D009B8198 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 81B7864C25A3F828009B8198 /* Actions.sks */; };
+		81B7869E25A3F82D009B8198 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 81B7864D25A3F828009B8198 /* GameScene.sks */; };
+		81B7869F25A3F82D009B8198 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 81B7864D25A3F828009B8198 /* GameScene.sks */; };
+		81B786A025A3F82D009B8198 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 81B7864D25A3F828009B8198 /* GameScene.sks */; };
+		81B786A125A3F82D009B8198 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 81B7864D25A3F828009B8198 /* GameScene.sks */; };
+		81B786A225A3F82D009B8198 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B7864E25A3F828009B8198 /* GameScene.swift */; };
+		81B786A325A3F82D009B8198 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B7864E25A3F828009B8198 /* GameScene.swift */; };
+		81B786A425A3F82D009B8198 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B7864E25A3F828009B8198 /* GameScene.swift */; };
+		81B786A525A3F82D009B8198 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B7864E25A3F828009B8198 /* GameScene.swift */; };
+		81B786A625A3F82D009B8198 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81B7864F25A3F82C009B8198 /* Assets.xcassets */; };
+		81B786A725A3F82D009B8198 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81B7864F25A3F82C009B8198 /* Assets.xcassets */; };
+		81B786A825A3F82D009B8198 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81B7864F25A3F82C009B8198 /* Assets.xcassets */; };
+		81B786A925A3F82D009B8198 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81B7864F25A3F82C009B8198 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81B7866625A3F82D009B8198 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81B7864725A3F828009B8198 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81B7866325A3F82D009B8198;
+			remoteInfo = "SpriteKitLearning watchOS App";
+		};
+		81B7867325A3F82D009B8198 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81B7864725A3F828009B8198 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81B7867025A3F82D009B8198;
+			remoteInfo = "SpriteKitLearning watchOS App Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		81B786AF25A3F82D009B8198 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				81B7867225A3F82D009B8198 /* SpriteKitLearning Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B786B325A3F82D009B8198 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				81B7866525A3F82D009B8198 /* SpriteKitLearning.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		81B7864C25A3F828009B8198 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		81B7864D25A3F828009B8198 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		81B7864E25A3F828009B8198 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		81B7864F25A3F82C009B8198 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81B7865425A3F82D009B8198 /* SpriteKitLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteKitLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B7865725A3F82D009B8198 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81B7865925A3F82D009B8198 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		81B7865C25A3F82D009B8198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81B7865F25A3F82D009B8198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81B7866125A3F82D009B8198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B7866425A3F82D009B8198 /* SpriteKitLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteKitLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B7866A25A3F82D009B8198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		81B7866C25A3F82D009B8198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B7867125A3F82D009B8198 /* SpriteKitLearning Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SpriteKitLearning Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B7867625A3F82D009B8198 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		81B7867825A3F82D009B8198 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		81B7867A25A3F82D009B8198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B7867F25A3F82D009B8198 /* SpriteKitLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteKitLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B7868125A3F82D009B8198 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81B7868325A3F82D009B8198 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		81B7868625A3F82D009B8198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81B7868925A3F82D009B8198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81B7868B25A3F82D009B8198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B7869025A3F82D009B8198 /* SpriteKitLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteKitLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B7869225A3F82D009B8198 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81B7869425A3F82D009B8198 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		81B7869725A3F82D009B8198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81B7869925A3F82D009B8198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B7869A25A3F82D009B8198 /* SpriteKitLearning_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpriteKitLearning_macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81B7865125A3F82D009B8198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B7866E25A3F82D009B8198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B7867C25A3F82D009B8198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B7868D25A3F82D009B8198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81B7864625A3F828009B8198 = {
+			isa = PBXGroup;
+			children = (
+				81B7864B25A3F828009B8198 /* SpriteKitLearning Shared */,
+				81B7865625A3F82D009B8198 /* SpriteKitLearning iOS */,
+				81B7866825A3F82D009B8198 /* SpriteKitLearning watchOS App */,
+				81B7867525A3F82D009B8198 /* SpriteKitLearning watchOS App Extension */,
+				81B7868025A3F82D009B8198 /* SpriteKitLearning tvOS */,
+				81B7869125A3F82D009B8198 /* SpriteKitLearning macOS */,
+				81B7865525A3F82D009B8198 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81B7864B25A3F828009B8198 /* SpriteKitLearning Shared */ = {
+			isa = PBXGroup;
+			children = (
+				81B7864C25A3F828009B8198 /* Actions.sks */,
+				81B7864D25A3F828009B8198 /* GameScene.sks */,
+				81B7864E25A3F828009B8198 /* GameScene.swift */,
+				81B7864F25A3F82C009B8198 /* Assets.xcassets */,
+			);
+			path = "SpriteKitLearning Shared";
+			sourceTree = "<group>";
+		};
+		81B7865525A3F82D009B8198 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81B7865425A3F82D009B8198 /* SpriteKitLearning.app */,
+				81B7866425A3F82D009B8198 /* SpriteKitLearning.app */,
+				81B7867125A3F82D009B8198 /* SpriteKitLearning Extension.appex */,
+				81B7867F25A3F82D009B8198 /* SpriteKitLearning.app */,
+				81B7869025A3F82D009B8198 /* SpriteKitLearning.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81B7865625A3F82D009B8198 /* SpriteKitLearning iOS */ = {
+			isa = PBXGroup;
+			children = (
+				81B7865725A3F82D009B8198 /* AppDelegate.swift */,
+				81B7865925A3F82D009B8198 /* GameViewController.swift */,
+				81B7865B25A3F82D009B8198 /* Main.storyboard */,
+				81B7865E25A3F82D009B8198 /* LaunchScreen.storyboard */,
+				81B7866125A3F82D009B8198 /* Info.plist */,
+			);
+			path = "SpriteKitLearning iOS";
+			sourceTree = "<group>";
+		};
+		81B7866825A3F82D009B8198 /* SpriteKitLearning watchOS App */ = {
+			isa = PBXGroup;
+			children = (
+				81B7866925A3F82D009B8198 /* Interface.storyboard */,
+				81B7866C25A3F82D009B8198 /* Info.plist */,
+			);
+			path = "SpriteKitLearning watchOS App";
+			sourceTree = "<group>";
+		};
+		81B7867525A3F82D009B8198 /* SpriteKitLearning watchOS App Extension */ = {
+			isa = PBXGroup;
+			children = (
+				81B7867625A3F82D009B8198 /* InterfaceController.swift */,
+				81B7867825A3F82D009B8198 /* ExtensionDelegate.swift */,
+				81B7867A25A3F82D009B8198 /* Info.plist */,
+			);
+			path = "SpriteKitLearning watchOS App Extension";
+			sourceTree = "<group>";
+		};
+		81B7868025A3F82D009B8198 /* SpriteKitLearning tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				81B7868125A3F82D009B8198 /* AppDelegate.swift */,
+				81B7868325A3F82D009B8198 /* GameViewController.swift */,
+				81B7868525A3F82D009B8198 /* Main.storyboard */,
+				81B7868825A3F82D009B8198 /* LaunchScreen.storyboard */,
+				81B7868B25A3F82D009B8198 /* Info.plist */,
+			);
+			path = "SpriteKitLearning tvOS";
+			sourceTree = "<group>";
+		};
+		81B7869125A3F82D009B8198 /* SpriteKitLearning macOS */ = {
+			isa = PBXGroup;
+			children = (
+				81B7869225A3F82D009B8198 /* AppDelegate.swift */,
+				81B7869425A3F82D009B8198 /* GameViewController.swift */,
+				81B7869625A3F82D009B8198 /* Main.storyboard */,
+				81B7869925A3F82D009B8198 /* Info.plist */,
+				81B7869A25A3F82D009B8198 /* SpriteKitLearning_macOS.entitlements */,
+			);
+			path = "SpriteKitLearning macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81B7865325A3F82D009B8198 /* SpriteKitLearning iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B786B425A3F82D009B8198 /* Build configuration list for PBXNativeTarget "SpriteKitLearning iOS" */;
+			buildPhases = (
+				81B7865025A3F82D009B8198 /* Sources */,
+				81B7865125A3F82D009B8198 /* Frameworks */,
+				81B7865225A3F82D009B8198 /* Resources */,
+				81B786B325A3F82D009B8198 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81B7866725A3F82D009B8198 /* PBXTargetDependency */,
+			);
+			name = "SpriteKitLearning iOS";
+			productName = "SpriteKitLearning iOS";
+			productReference = 81B7865425A3F82D009B8198 /* SpriteKitLearning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81B7866325A3F82D009B8198 /* SpriteKitLearning watchOS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B786B025A3F82D009B8198 /* Build configuration list for PBXNativeTarget "SpriteKitLearning watchOS App" */;
+			buildPhases = (
+				81B7866225A3F82D009B8198 /* Resources */,
+				81B786AF25A3F82D009B8198 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81B7867425A3F82D009B8198 /* PBXTargetDependency */,
+			);
+			name = "SpriteKitLearning watchOS App";
+			productName = "SpriteKitLearning watchOS App";
+			productReference = 81B7866425A3F82D009B8198 /* SpriteKitLearning.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		81B7867025A3F82D009B8198 /* SpriteKitLearning watchOS App Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B786AC25A3F82D009B8198 /* Build configuration list for PBXNativeTarget "SpriteKitLearning watchOS App Extension" */;
+			buildPhases = (
+				81B7866D25A3F82D009B8198 /* Sources */,
+				81B7866E25A3F82D009B8198 /* Frameworks */,
+				81B7866F25A3F82D009B8198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SpriteKitLearning watchOS App Extension";
+			productName = "SpriteKitLearning watchOS App Extension";
+			productReference = 81B7867125A3F82D009B8198 /* SpriteKitLearning Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		81B7867E25A3F82D009B8198 /* SpriteKitLearning tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B786B725A3F82D009B8198 /* Build configuration list for PBXNativeTarget "SpriteKitLearning tvOS" */;
+			buildPhases = (
+				81B7867B25A3F82D009B8198 /* Sources */,
+				81B7867C25A3F82D009B8198 /* Frameworks */,
+				81B7867D25A3F82D009B8198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SpriteKitLearning tvOS";
+			productName = "SpriteKitLearning tvOS";
+			productReference = 81B7867F25A3F82D009B8198 /* SpriteKitLearning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81B7868F25A3F82D009B8198 /* SpriteKitLearning macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B786BA25A3F82D009B8198 /* Build configuration list for PBXNativeTarget "SpriteKitLearning macOS" */;
+			buildPhases = (
+				81B7868C25A3F82D009B8198 /* Sources */,
+				81B7868D25A3F82D009B8198 /* Frameworks */,
+				81B7868E25A3F82D009B8198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SpriteKitLearning macOS";
+			productName = "SpriteKitLearning macOS";
+			productReference = 81B7869025A3F82D009B8198 /* SpriteKitLearning.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81B7864725A3F828009B8198 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					81B7865325A3F82D009B8198 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					81B7866325A3F82D009B8198 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					81B7867025A3F82D009B8198 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					81B7867E25A3F82D009B8198 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					81B7868F25A3F82D009B8198 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 81B7864A25A3F828009B8198 /* Build configuration list for PBXProject "SpriteKitLearning" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81B7864625A3F828009B8198;
+			productRefGroup = 81B7865525A3F82D009B8198 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81B7865325A3F82D009B8198 /* SpriteKitLearning iOS */,
+				81B7866325A3F82D009B8198 /* SpriteKitLearning watchOS App */,
+				81B7867025A3F82D009B8198 /* SpriteKitLearning watchOS App Extension */,
+				81B7867E25A3F82D009B8198 /* SpriteKitLearning tvOS */,
+				81B7868F25A3F82D009B8198 /* SpriteKitLearning macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81B7865225A3F82D009B8198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B7869E25A3F82D009B8198 /* GameScene.sks in Resources */,
+				81B7865D25A3F82D009B8198 /* Main.storyboard in Resources */,
+				81B7869B25A3F82D009B8198 /* Actions.sks in Resources */,
+				81B7866025A3F82D009B8198 /* LaunchScreen.storyboard in Resources */,
+				81B786A625A3F82D009B8198 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B7866225A3F82D009B8198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B786A725A3F82D009B8198 /* Assets.xcassets in Resources */,
+				81B7866B25A3F82D009B8198 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B7866F25A3F82D009B8198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B7869F25A3F82D009B8198 /* GameScene.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B7867D25A3F82D009B8198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B786A025A3F82D009B8198 /* GameScene.sks in Resources */,
+				81B7868725A3F82D009B8198 /* Main.storyboard in Resources */,
+				81B7869C25A3F82D009B8198 /* Actions.sks in Resources */,
+				81B7868A25A3F82D009B8198 /* LaunchScreen.storyboard in Resources */,
+				81B786A825A3F82D009B8198 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B7868E25A3F82D009B8198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B7869825A3F82D009B8198 /* Main.storyboard in Resources */,
+				81B786A125A3F82D009B8198 /* GameScene.sks in Resources */,
+				81B786A925A3F82D009B8198 /* Assets.xcassets in Resources */,
+				81B7869D25A3F82D009B8198 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81B7865025A3F82D009B8198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B786A225A3F82D009B8198 /* GameScene.swift in Sources */,
+				81B7865A25A3F82D009B8198 /* GameViewController.swift in Sources */,
+				81B7865825A3F82D009B8198 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B7866D25A3F82D009B8198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B786A325A3F82D009B8198 /* GameScene.swift in Sources */,
+				81B7867925A3F82D009B8198 /* ExtensionDelegate.swift in Sources */,
+				81B7867725A3F82D009B8198 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B7867B25A3F82D009B8198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B786A425A3F82D009B8198 /* GameScene.swift in Sources */,
+				81B7868425A3F82D009B8198 /* GameViewController.swift in Sources */,
+				81B7868225A3F82D009B8198 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B7868C25A3F82D009B8198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B786A525A3F82D009B8198 /* GameScene.swift in Sources */,
+				81B7869525A3F82D009B8198 /* GameViewController.swift in Sources */,
+				81B7869325A3F82D009B8198 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81B7866725A3F82D009B8198 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81B7866325A3F82D009B8198 /* SpriteKitLearning watchOS App */;
+			targetProxy = 81B7866625A3F82D009B8198 /* PBXContainerItemProxy */;
+		};
+		81B7867425A3F82D009B8198 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81B7867025A3F82D009B8198 /* SpriteKitLearning watchOS App Extension */;
+			targetProxy = 81B7867325A3F82D009B8198 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81B7865B25A3F82D009B8198 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81B7865C25A3F82D009B8198 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81B7865E25A3F82D009B8198 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81B7865F25A3F82D009B8198 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		81B7866925A3F82D009B8198 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81B7866A25A3F82D009B8198 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		81B7868525A3F82D009B8198 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81B7868625A3F82D009B8198 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81B7868825A3F82D009B8198 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81B7868925A3F82D009B8198 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		81B7869625A3F82D009B8198 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81B7869725A3F82D009B8198 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81B786AA25A3F82D009B8198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81B786AB25A3F82D009B8198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		81B786AD25A3F82D009B8198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VHWFV2V25Z;
+				INFOPLIST_FILE = "SpriteKitLearning watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeartgames.SpriteKitLearning.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "SpriteKitLearning Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		81B786AE25A3F82D009B8198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VHWFV2V25Z;
+				INFOPLIST_FILE = "SpriteKitLearning watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeartgames.SpriteKitLearning.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "SpriteKitLearning Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		81B786B125A3F82D009B8198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VHWFV2V25Z;
+				IBSC_MODULE = SpriteKitLearning_Extension;
+				INFOPLIST_FILE = "SpriteKitLearning watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeartgames.SpriteKitLearning.watchkitapp;
+				PRODUCT_NAME = SpriteKitLearning;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		81B786B225A3F82D009B8198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VHWFV2V25Z;
+				IBSC_MODULE = SpriteKitLearning_Extension;
+				INFOPLIST_FILE = "SpriteKitLearning watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeartgames.SpriteKitLearning.watchkitapp;
+				PRODUCT_NAME = SpriteKitLearning;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		81B786B525A3F82D009B8198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VHWFV2V25Z;
+				INFOPLIST_FILE = "SpriteKitLearning iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeartgames.SpriteKitLearning;
+				PRODUCT_NAME = SpriteKitLearning;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81B786B625A3F82D009B8198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VHWFV2V25Z;
+				INFOPLIST_FILE = "SpriteKitLearning iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeartgames.SpriteKitLearning;
+				PRODUCT_NAME = SpriteKitLearning;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81B786B825A3F82D009B8198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VHWFV2V25Z;
+				INFOPLIST_FILE = "SpriteKitLearning tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeartgames.SpriteKitLearning;
+				PRODUCT_NAME = SpriteKitLearning;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.3;
+			};
+			name = Debug;
+		};
+		81B786B925A3F82D009B8198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VHWFV2V25Z;
+				INFOPLIST_FILE = "SpriteKitLearning tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeartgames.SpriteKitLearning;
+				PRODUCT_NAME = SpriteKitLearning;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.3;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81B786BB25A3F82D009B8198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SpriteKitLearning macOS/SpriteKitLearning_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VHWFV2V25Z;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "SpriteKitLearning macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeartgames.SpriteKitLearning;
+				PRODUCT_NAME = SpriteKitLearning;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		81B786BC25A3F82D009B8198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SpriteKitLearning macOS/SpriteKitLearning_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VHWFV2V25Z;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "SpriteKitLearning macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeartgames.SpriteKitLearning;
+				PRODUCT_NAME = SpriteKitLearning;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81B7864A25A3F828009B8198 /* Build configuration list for PBXProject "SpriteKitLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B786AA25A3F82D009B8198 /* Debug */,
+				81B786AB25A3F82D009B8198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81B786AC25A3F82D009B8198 /* Build configuration list for PBXNativeTarget "SpriteKitLearning watchOS App Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B786AD25A3F82D009B8198 /* Debug */,
+				81B786AE25A3F82D009B8198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81B786B025A3F82D009B8198 /* Build configuration list for PBXNativeTarget "SpriteKitLearning watchOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B786B125A3F82D009B8198 /* Debug */,
+				81B786B225A3F82D009B8198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81B786B425A3F82D009B8198 /* Build configuration list for PBXNativeTarget "SpriteKitLearning iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B786B525A3F82D009B8198 /* Debug */,
+				81B786B625A3F82D009B8198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81B786B725A3F82D009B8198 /* Build configuration list for PBXNativeTarget "SpriteKitLearning tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B786B825A3F82D009B8198 /* Debug */,
+				81B786B925A3F82D009B8198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81B786BA25A3F82D009B8198 /* Build configuration list for PBXNativeTarget "SpriteKitLearning macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B786BB25A3F82D009B8198 /* Debug */,
+				81B786BC25A3F82D009B8198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81B7864725A3F828009B8198 /* Project object */;
+}
